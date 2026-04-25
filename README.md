@@ -19,6 +19,7 @@ LoL/
 ## 🛠️ Funcionalidades
 
 ### `get_data.py`
+
 - Coleta dados da API oficial do Ddragon
 - Transforma dados JSON em DataFrame pandas
 - Extrai estatísticas dos campeões (HP, Armadura, Velocidade de Ataque, etc.)
@@ -26,6 +27,7 @@ LoL/
 - Salva dados em formato Feather para acesso rápido
 
 ### `main.ipynb`
+
 - Carregamento e exploração dos dados
 - Análises exploratórias com pandas
 - Normalização de dados com diferentes escaladores
@@ -36,13 +38,13 @@ LoL/
 
 ### Gráficos 2D
 
-[Espaço reservado para gráficos 2D - Análise de componentes principais]
+![Gráfico 2D](images/readme/2d.PNG)
 
 ### Gráficos 3D
 
-[Espaço reservado para gráficos 3D - Visualização tridimensional dos campeões]
+📦 Dependências
 
-## 📦 Dependências
+![Gráfico 3D](images/readme/3d.gif)
 
 - `pandas` - Manipulação e análise de dados
 - `matplotlib` - Visualizações
@@ -53,11 +55,12 @@ LoL/
 ## 🚀 Como Usar
 
 1. **Coleta de dados:**
+
    ```bash
    python get_data.py
    ```
-   Isso irá baixar os dados dos campeões, transformá-los em um DataFrame e salvar em `champions_db.feather`, além de baixar as imagens.
 
+   Isso irá baixar os dados dos campeões, transformá-los em um DataFrame e salvar em `champions_db.feather`, além de baixar as imagens.
 2. **Análise e visualizações:**
    Abra `main.ipynb` em um Jupyter Notebook para explorar os dados e visualizar os gráficos.
 
