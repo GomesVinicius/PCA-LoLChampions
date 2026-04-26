@@ -47,7 +47,7 @@ def transform_to_df(data):
     return pd.DataFrame(champions)
 
 def save_images(df):
-    folder = "images"
+    folder = "assets/LoL"
     os.makedirs(folder, exist_ok=True)
 
     df['image_path'] = folder+'/'+df['image'].astype(str)
@@ -80,5 +80,4 @@ if __name__ == '__main__':
     df = transform_to_df(data)
     save_images(df)
     
-    df.to_feather('champions_db.feather')
-    print(df)
+    df.to_csv('champions_db.csv', index=False)
