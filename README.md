@@ -38,13 +38,14 @@ LoL/
 
 ### Gráficos 2D
 
-![Gráfico 2D](images/readme/2d.PNG)
+![Gráfico 2D](assets/readme/2d.PNG)
 
 ### Gráficos 3D
 
 📦 Dependências
 
-![Gráfico 3D](images/readme/3d.gif)
+<!-- ![Gráfico 3D](assets/readme/3d.gif) -->
+![Gráfico 3D](assets/readme/3d_v2.gif)
 
 - `pandas` - Manipulação e análise de dados
 - `matplotlib` - Visualizações
